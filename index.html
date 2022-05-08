@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Clima</h1>
+
+    <form class="busca">
+        <input type="search" id="searchInput" placeholder="Digite o nome da cidade" />
+        <button>Buscar</button>
+    </form>
+
+    <div class="resultado">
+        <div class="titulo">--</div>
+
+        <div class="info">
+            <div class="temp">
+                <div class="tempTitulo">Temperatura</div>
+                <div class="tempInfo">-- <sup>ºC</sup></div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" />
+                <div class="tempDesc">Descrição</div>
+            </div>
+            <div class="vento">
+                <div class="ventoTitulo">Vento</div>
+                <div class="ventoInfo">-- <span>km/h</span></div>
+                <div class="ventoArea">
+                    <div class="ventoPonto" style="transform: rotate(0deg)"></div>
+                </div>
+                <div class="degDesc">Graus<sup>°</sup></div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="aviso"></div>
+
+    <footer>
+        <h2>Developed by: Lucas Natan </h2></br>
+        <a href="https://openweathermap.org/" target="_blanck" title="OpenWeather">Data API by: OpenWeather</a></br>
+        <h4>Exercise promoter - B7Web</h2>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
