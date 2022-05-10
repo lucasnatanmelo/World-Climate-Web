@@ -1,6 +1,6 @@
 # Informações climáticas de qualquer cidade/estado do mundo
 
-Link: https://lucasnatanmelo.github.io/clima/
+Link: https://lucasnatanmelo.github.io/World-Climate-Web/
 
 ## Sobre o projeto
 Exercício utilizando HTML, CSS  e JavaScript - Foi utilizado em conjunto a API fornecida pela OpenWeather - http://openweathermap.org
